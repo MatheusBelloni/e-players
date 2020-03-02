@@ -85,3 +85,31 @@ li a:hover{
 .banner .button{
     margin-top: 230px;
 }
+
+.sobre{
+    background-image: url("../Images/Teams/T6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(0 26%, 100% 0%, 100% 80%, 0% 100%);
+    width: 100%;
+    min-height: 350px;
+    margin: 18px 0px;
+    color: white;
+    padding: 325px 0;
+}
+
+.sobre .container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sobre .container div{
+    width: 50%;
+}
+
+.campeã{
+    position: absolute;
+    right: 30px;
+    top: 990px;
+}
