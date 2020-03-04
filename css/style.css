@@ -267,3 +267,9 @@ footer p{
     text-align: center;
     color: #474747;
 }
+
+/* PÁGINA DE CADASTRO */
+
+.titulo_pagina{
+    background-image: url(../Images/cadastro.png);
+}
