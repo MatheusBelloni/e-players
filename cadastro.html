@@ -36,7 +36,7 @@
             <h1>cadastro de jogador</h1>
         </div>
 
-        <form action="" method="post">
+        <form action="" method="post" class="form_cadastro">
             <div class="campo">
                 <label for="nome">nome do jogador</label>
                 <input type="text" name="nome do jogador" id="nome">
@@ -56,15 +56,16 @@
                 <label for="senha">senha</label>
                 <input type="password" name="senha" id="senha">
 
-                <div class="campo">
-                    <label for="senha_confirm">confirme a senha</label>
-                    <input type="password" name="senha_confirm" id="senha_confirm">
-                </div>
+                
+            </div>
+            <div class="campo">
+                <label for="senha_confirm">confirme a senha</label>
+                <input type="password" name="senha_confirm" id="senha_confirm">
             </div>
 
             <div class="campo">
                 <label for="nascimento">nascimento</label>
-                <input type="date" name="nascimento" id="nascimento">
+                <input type="date" name="nascimento" id="nascimento" max="2077-03-05" min="1900-03-05">
             </div>
 
             <div class="campo">
@@ -93,14 +94,14 @@
 
             </fieldset>
 
-            <div class="campo">
+            <div class="campo termos">
                 <input type="checkbox" name="check" id="check">
                 <label for="check">
                     Declaro que li e aceito os termos de uso deste site.
                 </label>
             </div>
 
-            <button type="submit">Cadastar</button>
+            <button type="submit" class="button gradient">Cadastar</button>
 
         </form>
 
