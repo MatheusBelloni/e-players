@@ -272,4 +272,15 @@ footer p{
 
 .titulo_pagina{
     background-image: url(../Images/cadastro.png);
+    width: 100%;
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: white;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    text-transform: uppercase;
+    padding-top: 3em;
 }
