@@ -14,14 +14,20 @@
 <body>
     <header>
         <div class="container cabecalho">
-            <a href="index.html">
-                <img src="images/Logo.svg" alt="e-players logo">
-            </a>
-            <nav>
+            <div>
+                <a href="#" onclick="botaomenu()">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a href="index.html">
+                    <img src="images/Logo.svg" alt="e-players logo">
+                </a>
+            </div>
+            <nav id="menu">
                 <ul>
                     <li><a href="index.html" title="voltar para a página inicial">INÍCIO</a></li>
                     <li><a href="index.html#horarios" title="Ir até a sessão de horários das partidas">HORÁRIOS</a></li>
-                    <li><a href="index.html#resultados" title="Ir até a sessão de resultados das partidas">RESULTADOS</a></li>
+                    <li><a href="index.html#resultados"
+                            title="Ir até a sessão de resultados das partidas">RESULTADOS</a></li>
                     <li><a href="index.html#noticias" title="Ir até a sessão de notícias">NOTÍCIAS</a></li>
                     <li>
                         <a href="#" title="buscar conteúdo">
@@ -109,46 +115,46 @@
                 <div class="card">
                     <img src="images/Teams/T7.jpeg" alt="Notícia sobre assunto 1">
                     <div>
-                    <h4>Título da notícia</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos blanditiis repudiandae quam
-                        praesentium provident sit, maxime, corrupti amet, rerum ducimus aperiam nisi vero assumenda!
-                        Nesciunt illum sunt sapiente obcaecati atque.</p>
+                        <h4>Título da notícia</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos blanditiis repudiandae quam
+                            praesentium provident sit, maxime, corrupti amet, rerum ducimus aperiam nisi vero assumenda!
+                            Nesciunt illum sunt sapiente obcaecati atque.</p>
                     </div>
                 </div>
                 <div class="card">
                     <img src="images/Teams/T4.jpg" alt="Notícia sobre assunto 1">
                     <div>
-                    <h4>Título da notícia</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos blanditiis repudiandae quam
-                        praesentium provident sit, maxime, corrupti amet, rerum ducimus aperiam nisi vero assumenda!
-                        Nesciunt illum sunt sapiente obcaecati atque.</p>
+                        <h4>Título da notícia</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos blanditiis repudiandae quam
+                            praesentium provident sit, maxime, corrupti amet, rerum ducimus aperiam nisi vero assumenda!
+                            Nesciunt illum sunt sapiente obcaecati atque.</p>
                     </div>
                 </div>
                 <div class="card">
                     <img src="images/Teams/T8.jpg" alt="Notícia sobre assunto 1">
                     <div>
-                    <h4>Título da notícia</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos blanditiis repudiandae quam
-                        praesentium provident sit, maxime, corrupti amet, rerum ducimus aperiam nisi vero assumenda!
-                        Nesciunt illum sunt sapiente obcaecati atque.</p>
+                        <h4>Título da notícia</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos blanditiis repudiandae quam
+                            praesentium provident sit, maxime, corrupti amet, rerum ducimus aperiam nisi vero assumenda!
+                            Nesciunt illum sunt sapiente obcaecati atque.</p>
                     </div>
                 </div>
                 <div class="card">
                     <img src="images/Teams/T9.jpeg" alt="Notícia sobre assunto 1">
                     <div>
-                    <h4>Título da notícia</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos blanditiis repudiandae quam
-                        praesentium provident sit, maxime, corrupti amet, rerum ducimus aperiam nisi vero assumenda!
-                        Nesciunt illum sunt sapiente obcaecati atque.</p>
+                        <h4>Título da notícia</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos blanditiis repudiandae quam
+                            praesentium provident sit, maxime, corrupti amet, rerum ducimus aperiam nisi vero assumenda!
+                            Nesciunt illum sunt sapiente obcaecati atque.</p>
                     </div>
                 </div>
                 <div class="card">
                     <img src="images/Teams/T5.jpeg" alt="Notícia sobre assunto 1">
                     <div>
-                    <h4>Título da notícia</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos blanditiis repudiandae quam
-                        praesentium provident sit, maxime, corrupti amet, rerum ducimus aperiam nisi vero assumenda!
-                        Nesciunt illum sunt sapiente obcaecati atque.</p>
+                        <h4>Título da notícia</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos blanditiis repudiandae quam
+                            praesentium provident sit, maxime, corrupti amet, rerum ducimus aperiam nisi vero assumenda!
+                            Nesciunt illum sunt sapiente obcaecati atque.</p>
                     </div>
                 </div>
             </section>
@@ -240,9 +246,9 @@
                     </div>
                 </div>
 
-                    <a href="todos_os_resultados.html" class="button gradient">
-                        MAIS RESULTADOS
-                    </a>
+                <a href="todos_os_resultados.html" class="button gradient">
+                    MAIS RESULTADOS
+                </a>
 
             </section>
         </div>
@@ -273,14 +279,29 @@
             </div>
             <div>
                 <h5>PRINCIPAIS LIGAS</h5>
-                    <h6>LIGA CBL</h6>
-                    <h6>LIGA LCK</h6>
-                    <h6>LIGA PROFISSIONAL CS</h6>
-                    <h6>LIGA WCG</h6>
+                <h6>LIGA CBL</h6>
+                <h6>LIGA LCK</h6>
+                <h6>LIGA PROFISSIONAL CS</h6>
+                <h6>LIGA WCG</h6>
             </div>
         </div>
         <p>© 2077 SENAI Eletronic Sports - Todos os direitos reservados.</p>
     </footer>
+    <script>
+
+        function botaomenu() {
+
+            var m = document.getElementById("menu");
+            if (m.style.display == "block") {
+                m.style.display = "none";
+            } else {
+                m.style.display = "block"
+            }
+        }
+
+
+    </script>
+    
 </body>
 
 </html>

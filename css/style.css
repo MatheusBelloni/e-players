@@ -371,6 +371,13 @@ fieldset label{
     cursor: pointer;
 }
 
+.cabecalho .fa-bars{
+    color: var(--purple);
+    font-size: 2em;
+    padding: 0.5em;
+    display: none;
+}
+
 @media screen and (max-width: 1200px) {
     .campeã{
         right: 0%;
@@ -403,10 +410,6 @@ fieldset label{
     .sobre .container div{
         width: 55%;
         margin-left: 30px;
-    }
-
-    #horarios .container{
-        
     }
 
     .ao_vivo{
@@ -456,4 +459,45 @@ fieldset label{
         padding: 0.5em;
     }
 
+}
+
+@media screen and (max-width: 460px) {
+    .cabecalho .fa-bars{
+        display: block;
+    }
+
+    .cabecalho div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0 2em;
+    }
+    
+   #menu{
+       position: absolute;
+       top: 73px;
+       width: 100%;
+       background-color: #474747 ;
+       display: none;
+   }
+
+   .cabecalho ul{
+    flex-direction: column;
+    height: 250px;
+   }
+
+   .cabecalho ul a{
+       background-color: #474747;
+       padding: 0.5em 100% 0.5em 0.5em;
+       margin: 0.1em;
+   }
+
+   .cabecalho{
+       flex-direction: column;
+   }
+
+   .campeã{
+       display: none;
+   }
 }
